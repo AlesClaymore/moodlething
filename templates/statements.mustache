@@ -1,0 +1,40 @@
+<h1>Список заявлений</h1>
+
+
+    
+    
+
+
+
+ <table class="local_coursefiles_table generaltable">
+        <thead>
+            <tr> 
+                </th>
+                <th class="header c1" scope="col">П/П</th>
+                <th class="header c2" scope="col">ФИО</th>
+                <th class="header c3" scope="col">Дата</th>
+                <th class="header c4" scope="col">Возраст</th>
+                <th class="header c5" scope="col">Почта</th>
+                <th class="header c6" scope="col">Университет</th>
+                <th class="header c7" scope="col">Доп. информация</th>
+ 
+            </tr>
+        </thead>
+
+        <tbody>
+        {{#444}}
+        
+            <tr>
+
+                <td class="cell c1"> {{id}}   </td>   
+                <td class="cell c2"> {{fullname}} </td>
+                <td class="cell c3"> {{date}} </td>
+                <td class="cell c4 lastcol"> {{age}} </td>
+                <td class="cell c5 lastcol"> {{email}} </td>
+                <td class="cell c6 lastcol"> {{chosenuni}} </td>
+                <td class="cell c7 lastcol"> {{bio}} </td>
+            </tr>
+          
+        {{/444}}
+    </table>
+
